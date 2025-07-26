@@ -1,0 +1,44 @@
+<!-- fragment_music_category.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_chill_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chill_music" />
+
+    <Button
+        android:id="@+id/button_electronic_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/electronic_music" />
+
+    <Button
+        android:id="@+id/button_rnb_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rnb_music" />
+
+    <Button
+        android:id="@+id/button_rock_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rock_music" />
+
+    <Button
+        android:id="@+id/button_pop_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_music" />
+
+    <Button
+        android:id="@+id/button_rap_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rap_music" />
+</LinearLayout>
